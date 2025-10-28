@@ -1,6 +1,10 @@
 # smallest_array_8051
 ## Aim:
 To Write an assembly language program in 8051 to find the smallest number in an array of N elements using conditional jump instructions.
+
+## APPARATUS REQUIRED
+- Personal computer with Keil software
+
 ## Program:
 ```
 ORG 0000H
