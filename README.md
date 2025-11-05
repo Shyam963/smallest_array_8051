@@ -31,7 +31,7 @@ END
 ```
 ### Output
 <img width="1919" height="1006" alt="Screenshot 2025-11-05 100515" src="https://github.com/user-attachments/assets/64cc939f-45cf-466d-99b2-630c39344a4c" />
-<img width="1919" height="287" alt="Screenshot 2025-11-05 100510" src="https://github.com/user-attachments/assets/b3ac345b-cc5c-4af3-953e-e45aa4fad36c" />
+<img width="1916" height="281" alt="image" src="https://github.com/user-attachments/assets/fd183916-78e5-45aa-bbef-b84c1e75d689" />
 
 
 ### Result
