@@ -7,23 +7,21 @@ To Write an assembly language program in 8051 to find the smallest number in an 
 ## ALGORITHM:
 1.Start the program.
 
-2.Load the starting address of the numbers into Register R0 (e.g., 30H).
+2.Load the TMOD register with 01H to select Timer 0 .
 
-3.Load the counter register R2 with the total number of elements (05H).
+3.Load the TH0 and TL0 registers with initial values 0FCH and 066H respectively to get approximately 1 ms delay.
 
-4.Clear the accumulator A to start summation from zero.
+4.Set the TR0 bit to start Timer 0.
 
-5.Add the value pointed to by R0 to the accumulator using indirect addressing (ADD A, @R0).
+5.Continuously check the TF0 (Timer 0 overflow flag) until it becomes 5.
 
-6.Increment R0 to point to the next number in memory.
+6.When TF0 = 5, the delay is completed.
 
-7.Decrement the counter R2 and repeat the addition until all 5 numbers are added.
+7.Clear TR0 to stop the timer.
 
-8.Store the final sum in memory location 35H
+8.Clear TF0 for future use.
 
-9.Stop program execution.
-
-10.End the program.
+9.End the program.
 
 ## Program:
 ```
