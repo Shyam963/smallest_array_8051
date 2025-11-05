@@ -30,8 +30,9 @@ END
 
 ```
 ### Output
-<img width="1920" height="1080" alt="Screenshot 2025-10-23 195720" src="https://github.com/user-attachments/assets/96c18255-5382-4395-b743-cd26ef899144" />
-<img width="1920" height="1080" alt="Screenshot 2025-10-23 195714" src="https://github.com/user-attachments/assets/a6e3a060-6730-4bcf-bddf-55a64c61624f" />
+<img width="1919" height="1006" alt="Screenshot 2025-11-05 100515" src="https://github.com/user-attachments/assets/64cc939f-45cf-466d-99b2-630c39344a4c" />
+<img width="1919" height="287" alt="Screenshot 2025-11-05 100510" src="https://github.com/user-attachments/assets/b3ac345b-cc5c-4af3-953e-e45aa4fad36c" />
+
 
 ### Result
 Thus the smallest number of the array is found using 8051 keil and output is shown
