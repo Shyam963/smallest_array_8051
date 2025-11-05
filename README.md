@@ -4,6 +4,26 @@ To Write an assembly language program in 8051 to find the smallest number in an 
 
 ## APPARATUS REQUIRED
 - Personal computer with Keil software
+## ALGORITHM:
+1.Start the program.
+
+2.Load the starting address of the numbers into Register R0 (e.g., 30H).
+
+3.Load the counter register R2 with the total number of elements (05H).
+
+4.Clear the accumulator A to start summation from zero.
+
+5.Add the value pointed to by R0 to the accumulator using indirect addressing (ADD A, @R0).
+
+6.Increment R0 to point to the next number in memory.
+
+7.Decrement the counter R2 and repeat the addition until all 5 numbers are added.
+
+8.Store the final sum in memory location 35H
+
+9.Stop program execution.
+
+10.End the program.
 
 ## Program:
 ```
